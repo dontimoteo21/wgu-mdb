@@ -1,12 +1,12 @@
 <div class="container-fluid">
 <div class="section-header">
-  <h3 class="grey-text">Customers list</h3>
-  <p class="grey-text pt-3">Manage your customers list</p>
+  <h3 class="grey-text">Course list</h3>
+  <p class="grey-text pt-3">Manage your course list</p>
 </div>
 
 <div class="container-fluid pb-5">
   <div class="pt-3 pb-5">
-    <button mdbBtn color="primary" (click)="onAddCustomer()">Add new customer</button>
+    <button mdbBtn color="primary" (click)="onAddCustomer()">Add new course</button>
 
     <div *ngIf="customers" class="mt-4 white">
       <app-customers-list [customers]="customers" (customerEdited)="onCustomerEdit($event)" (customerDeleted)="onCustomerDelete($event)"></app-customers-list>

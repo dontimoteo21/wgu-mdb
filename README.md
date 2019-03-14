@@ -5,6 +5,7 @@ Responsive CRUD application starter with NgRx state management, Firebase backend
 ________
 
 # Live Preview:
+
 ## Coming Soon
 
 # Technologies used
@@ -21,7 +22,6 @@ ________
 * Real time updates with Firebase real time database
 * Admin panel - manage user content
 * Responsive design
-
 
 # Installation:
 
@@ -52,5 +52,3 @@ Twitter: https://twitter.com/timothyjandrus
 Facebook: https://www.facebook.com/timothyjandrus
 
 LinkedIn: https://www.linkedin.com/in/timothyjandrus
-
-

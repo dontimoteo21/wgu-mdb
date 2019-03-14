@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core';
 import { User } from '../../auth/models/user.model';
 
 @Component({
@@ -7,6 +7,7 @@ import { User } from '../../auth/models/user.model';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  @ViewChild('sidenav') sidenav: ElementRef;
   @Input() user: User;
   @Input() isLoggedIn: boolean;
   @Input() isLoading: boolean;
@@ -14,13 +15,20 @@ export class HeaderComponent implements OnInit {
 
   @Output() logout = new EventEmitter<User>();
 
-  constructor() { }
+  clicked: boolean;
+  constructor() {
+    this.clicked = this.clicked === undefined ? false : true;
+   }
 
   ngOnInit() {
   }
 
   onLogout() {
     this.logout.emit(this.user);
+  }
+
+  setClicked(val: boolean): void {
+    this.clicked = val;
   }
 
 }

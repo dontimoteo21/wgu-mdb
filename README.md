@@ -1,11 +1,11 @@
-# MDB Angular Boilerplate
+# MDB Angular WGU
 
-Free, responsive CRUD application starter with NgRx state management, Firebase backend and material design. Built with the newest Bootstrap 4, Angular 7 and MDBootstrap - powerful and free UI Kit, containing **400+** material UI elements, **600+** material icons, **74** CSS animations, SASS files, templates, tutorials and many more.
+Responsive CRUD application starter with NgRx state management, Firebase backend and material design. Built with the newest Bootstrap 4, Angular 7 and MDBootstrap - powerful and free UI Kit, containing **400+** material UI elements, **600+** material icons, **74** CSS animations, SASS files, templates and many more.
 
 ________
 
 # Live Preview:
-## https://ng-boilerplate.mdbootstrap.com/
+## Coming Soon
 
 # Technologies used
 
@@ -26,7 +26,7 @@ ________
 # Installation:
 
 **Firebase configuration:**
-http://mdbootstrap.com/angular/getting-started/boilerplate-installation
+see firebase console to create a new app and add settings to environment config.
 
 **Install:**
 npm i
@@ -42,42 +42,15 @@ ng build --prod
 
 
 # FAQ
-http://mdbootstrap.com/angular/faq/
-
-# Documentation
-https://mdbootstrap.com/docs/angular/
-
-# Support:
-http://mdbootstrap.com/forums/forum/support/
-
-
-# Useful Links:
-
-Getting started: https://mdbootstrap.com/angular/angular-bootstrap-getting-started/
-
-5 min quick start: https://mdbootstrap.com/angular/mdb-quick-start/
-
-Material Design + Bootstrap Tutorial: https://mdbootstrap.com/bootstrap-tutorial/
-
-Material Design + WordPress Tutorial: https://mdbootstrap.com/wordpress-tutorial/
-
-Other Freebies: https://mdbootstrap.com/freebies/
-
-Premium Templates: https://mdbootstrap.com/templates/
+Coming soon
 
 
 # Social Media:
 
-Twitter: https://twitter.com/MDBootstrap
+Twitter: https://twitter.com/timothyjandrus
 
-Facebook: https://www.facebook.com/mdbootstrap
+Facebook: https://www.facebook.com/timothyjandrus
 
-Pinterest: https://pl.pinterest.com/mdbootstrap
+LinkedIn: https://www.linkedin.com/in/timothyjandrus
 
-Google+: https://plus.google.com/u/0/b/107863090883699620484/+Mdbootstrap/posts
 
-Dribbble: https://dribbble.com/mdbootstrap
-
-LinkedIn: https://www.linkedin.com/company/material-design-for-bootstrap
-
-# Visit our website: https://mdbootstrap.com/

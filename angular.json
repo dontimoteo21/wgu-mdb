@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mdb-angular-boilerplate": {
+    "wgu-mdb": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mdb-angular-boilerplate",
+            "outputPath": "dist/wgu-mdb",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mdb-angular-boilerplate:build"
+            "browserTarget": "wgu-mdb:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mdb-angular-boilerplate:build:production"
+              "browserTarget": "wgu-mdb:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mdb-angular-boilerplate:build"
+            "browserTarget": "wgu-mdb:build"
           }
         },
         "test": {
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mdb-angular-boilerplate:serve"
+            "devServerTarget": "wgu-mdb:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mdb-angular-boilerplate:serve:production"
+              "devServerTarget": "wgu-mdb:serve:production"
             }
           }
         },
@@ -136,7 +136,7 @@
       }
     }
   },
-  "defaultProject": "mdb-angular-boilerplate",
+  "defaultProject": "wgu-mdb",
   "cli": {
     "defaultCollection": "@ngrx/schematics"
   }

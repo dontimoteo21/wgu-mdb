@@ -2,11 +2,11 @@
 
 <div class="container-fluid pb-5">
     <div class="section-header">
-        <h3 class="grey-text">Degree Path</h3>
-        <p class="grey-text pt-3">Add, edit and delete your paths</p>
+        <h3 class="black-text">Degree Path</h3>
+        <p class="black-text pt-3">Add, edit and delete your paths</p>
       </div>
   <div class="py-5">
-      <button mdbBtn color="primary" class="ml-3" (click)="openAddProjectModal()">Add new paths</button>
+      <button mdbBtn color="grey" class="ml-3" (click)="openAddProjectModal()">Add new paths</button>
       <app-projects-list [projects]="projects$ | async" (projectDeleted)="onProjectDelete($event)" (projectEdited)="onProjectEdit($event)"></app-projects-list>
 
     <div *ngIf="isLoading$ | async" class="d-flex justify-content-center align-items-center" style="margin-top: 200px">

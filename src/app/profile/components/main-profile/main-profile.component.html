@@ -9,20 +9,20 @@
     <form [formGroup]="updateProfileForm">
       <h5 class="h5-responsive">Display name</h5>
       <div class="md-form">
-        <i class="fa fa-user prefix"></i>
+        <i class="fa fa-user"></i>
         <input type="text" id="form1" class="form-control" mdbInput formControlName="displayName" />
         <label for="form1">Display name</label>
       </div>
 
       <h5 class="h5-responsive">Photo Url</h5>
       <div class="md-form">
-        <i class="fa fa-user prefix"></i>
+        <i class="fa fa-user"></i>
         <input type="text" id="form2" class="form-control" mdbInput formControlName="photoUrl" />
         <label for="form2">Photo Url</label>
       </div>
 
       <div class="text-right">
-        <button type="button" mdbBtn color="primary" (click)="onProfileUpdate()">Update profile</button>
+        <button type="button" mdbBtn color="grey" (click)="onProfileUpdate()">Update profile</button>
       </div>
     </form>
   </mdb-card-body>

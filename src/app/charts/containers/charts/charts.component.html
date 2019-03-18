@@ -1,6 +1,6 @@
 <div class="container-fluid">
 <div class="section-header">
-  <h3 class="grey-text">Financial Charts</h3>
+  <h3 class="black-text">Financial Charts</h3>
   <p class="grey-text pt-3">Visualisation of data downloaded from an external API</p>
 </div>
 
@@ -17,11 +17,11 @@
       <mdb-card>
         <mdb-card-body>
           <div class="pl-4">
-            <button mdbBtn color="primary" size="sm" (click)="getExchangeRates('USD')">USD</button>
-            <button mdbBtn color="primary" size="sm" (click)="getExchangeRates('PLN')">PLN</button>
-            <button mdbBtn color="primary" size="sm" (click)="getExchangeRates('GBP')">GBP</button>
-            <button mdbBtn color="primary" size="sm" (click)="getExchangeRates('JPY')">JPY</button>
-            <button mdbBtn color="primary" size="sm" (click)="getExchangeRates('RUB')">RUB</button>
+            <button mdbBtn color="grey" size="sm" (click)="getExchangeRates('USD')">USD</button>
+            <button mdbBtn color="grey" size="sm" (click)="getExchangeRates('PLN')">PLN</button>
+            <button mdbBtn color="grey" size="sm" (click)="getExchangeRates('GBP')">GBP</button>
+            <button mdbBtn color="grey" size="sm" (click)="getExchangeRates('JPY')">JPY</button>
+            <button mdbBtn color="grey" size="sm" (click)="getExchangeRates('RUB')">RUB</button>
           </div>
           <app-line-chart [dataset]="dataset" [labels]="labels"></app-line-chart>
         </mdb-card-body>
@@ -32,7 +32,7 @@
   <div class="row mb-3">
     <div class="col-md-6">
       <table class="white text-center z-depth-1" mdbTable>
-        <thead class="primary-color text-white">
+        <thead class="grey text-white">
           <tr>
             <th>Value</th>
             <th>Label</th>

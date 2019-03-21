@@ -6,29 +6,31 @@
     // Flexbox styling that defines the direction in which the content is flowing.
     // Also makes it easier to stretch the lists to the height of the screen later on.
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 
     // Ensure that the board covers the viewport and add some padding to make it look better.
     width: 100%;
     height: 100%;
-    padding: 16px;
-    box-sizing: border-box;
+    // padding: 16px;
+    // box-sizing: border-box;
     justify-content: center;
     // background-color: whitesmoke;
 
     // Only allow horizontal scrolling.
-    overflow-x: auto;
-    overflow-y: hidden;
+    // overflow-x: auto;
+    // overflow-y: hidden;
   }
 
   .card-list {
     // Stretch the element to the height of the board and make it scrollable.
+    display: flex;
+    flex-flow: row wrap;
     height: 100%;
-    width: 50%;
+    width: auto;
     overflow: auto;
-    box-sizing: border-box;
+    // box-sizing: border-box;
     margin-right: 16px;
-    flex-shrink: 0;
+    // flex-shrink: 0;
 
     // Some extra styling to make the card list look better.
     // background: rgba(0, 0, 0, 0.03);
@@ -54,6 +56,10 @@
     margin-bottom: 10px;
 
     overflow: auto;
+    // flex-grow: 0;
+  }
+
+  .mdb-card {
     flex-grow: 1;
   }
 

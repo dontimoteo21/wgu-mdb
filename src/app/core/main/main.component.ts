@@ -32,22 +32,22 @@ export class MainComponent implements OnInit {
         items: [
           {
           title: 'ID Card',
-          description: 'This is the student ID',
+          description: 'This is the student ID and says a lot of important stuff',
           id: 'one'
         },
         {
           title: 'Courses',
-          description: 'These are my courses',
+          description: 'These are my courses and they are breaking my back...',
           id: 'two'
         },
         {
           title: 'Personal Progress',
-          description: 'This is my personal progress',
+          description: 'This is my personal progress, and I am a super rockstar',
           id: 'three'
         },
         {
           title: 'Financial Services',
-          description: 'This is info about my financial services',
+          description: 'This is info about my financial services and borrowing',
           id: 'four'
         }
         ],
@@ -58,22 +58,22 @@ export class MainComponent implements OnInit {
         items: [
           {
             title: 'Success Centers',
-            description: 'This is where I turn to find success',
+            description: 'This is where I turn to find success if I am struggling',
             id: 'five'
           },
           {
             title: 'Student Support',
-            description: 'This is where I can find support',
+            description: 'This is where I can find support from the WGU teams',
             id: 'six'
           },
           {
             title: 'Mentor',
-            description: 'This is info about my mentor',
+            description: 'This is info about my mentor, who is now my best friend',
             id: 'seven'
           },
           {
             title: 'Commons',
-            description: 'This is the commons area',
+            description: 'This is the commons area where so much can be found',
             id: 'eight'
           }
         ]

@@ -4,11 +4,11 @@ Responsive CRUD application starter with NgRx state management, Firebase backend
 
 ________
 
-# Live Preview:
+## Live Preview
 
 ## Coming Soon
 
-# Technologies used
+## Technologies used
 
 * Angular 7
 * Bootstrap 4
@@ -16,14 +16,14 @@ ________
 * NgRx
 * Firebase
 
-# Most important features
+## Most important features
 
 * NgRx state management
 * Real time updates with Firebase real time database
 * Admin panel - manage user content
 * Responsive design
 
-# Installation:
+## Installation
 
 **Firebase configuration:**
 see firebase console to create a new app and add settings to environment config.
@@ -40,15 +40,14 @@ ng test
 **Production Build:**
 ng build --prod
 
+## FAQ
 
-# FAQ
 Coming soon
 
+## Social Media
 
-# Social Media:
+Twitter: <https://twitter.com/timothyjandrus>
 
-Twitter: https://twitter.com/timothyjandrus
+Facebook: <https://www.facebook.com/timothyjandrus>
 
-Facebook: https://www.facebook.com/timothyjandrus
-
-LinkedIn: https://www.linkedin.com/in/timothyjandrus
+LinkedIn: <https://www.linkedin.com/in/timothyjandrus>
